@@ -1,6 +1,5 @@
 Create one html page with code :
 
-```
 <div id="forward">
 <a href="https://victim/anything">Loading ...</a>
 </div>
@@ -28,7 +27,7 @@ document.querySelector("#forward a").click();
 }
 });
 </script>
-```
+
 1. Open the html page that you have created, It forwards you to an error page
 2. Check the domain. it is Facebook's official domain
 3. Click the “Go Back” link. Now you end up on phishing page
