@@ -1,24 +1,8 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
-  <style>
-    .html-content {
-      background-color: lightblue;
-      width: 200px;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 2px solid #000;
-    }
-  </style>
-
-  <!-- Elemen HTML di dalam SVG -->
-  <foreignObject x="50" y="50" width="200" height="100">
-    <div class="html-content">
-      <p>This is an HTML element inside SVG!</p>
-    </div>
-  </foreignObject>
-
-  <!-- Teks lain di dalam SVG -->
-  <text x="10" y="20" font-size="14" fill="black">SVG with HTML Element</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <!-- Gaya langsung pada elemen -->
+  <rect x="10" y="10" width="100" height="100" style="fill:lightblue;stroke:black;stroke-width:5" />
+  
+  <!-- Teks dengan gaya inline -->
+  <text x="10" y="150" style="font-family:Arial; font-size:20px; fill:darkblue;">Styled Text</text>
 </svg>
