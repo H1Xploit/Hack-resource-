@@ -1,8 +1,80 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-  <!-- Gaya langsung pada elemen -->
-  <rect x="10" y="10" width="100" height="100" style="fill:lightblue;stroke:black;stroke-width:5" />
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <!-- Gaya CSS -->
+  <style>
+    /* Mengatur gaya untuk elemen teks */
+    text {
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      fill: darkblue;
+      text-anchor: middle;
+    }
+
+    /* Mengatur gaya untuk bentuk persegi panjang */
+    .rect {
+      fill: lightblue;
+      stroke: black;
+      stroke-width: 5;
+    }
+
+    /* Mengatur gaya untuk lingkaran */
+    .circle {
+      fill: lightgreen;
+      stroke: black;
+      stroke-width: 3;
+    }
+
+    /* Mengatur gaya untuk garis */
+    .line {
+      stroke: red;
+      stroke-width: 2;
+    }
+
+    /* Mengatur gaya untuk poligon */
+    .polygon {
+      fill: yellow;
+      stroke: orange;
+      stroke-width: 3;
+    }
+
+    /* Animasi untuk lingkaran */
+    @keyframes animateCircle {
+      0% {
+        cx: 50;
+        cy: 50;
+      }
+      50% {
+        cx: 150;
+        cy: 150;
+      }
+      100% {
+        cx: 50;
+        cy: 50;
+      }
+    }
+
+    .animated-circle {
+      animation: animateCircle 3s infinite;
+    }
+  </style>
+
+  <!-- Persegi panjang -->
+  <rect x="10" y="10" width="100" height="100" class="rect" />
+
+  <!-- Lingkaran dengan animasi -->
+  <circle cx="50" cy="50" r="30" class="circle animated-circle" />
+
+  <!-- Garis -->
+  <line x1="10" y1="120" x2="150" y2="200" class="line" />
+
+  <!-- Poligon -->
+  <polygon points="200,10 250,50 200,90" class="polygon" />
+
   <!-- Teks dengan gaya inline -->
-  <text x="10" y="150" style="font-family:Arial; font-size:20px; fill:darkblue;">Styled Text</text>
+  <text x="200" y="150">Styled SVG Example</text>
+
+  <!-- Teks dengan efek bayangan -->
+  <text x="200" y="200" style="font-family: 'Arial'; font-size: 20px; fill: #333; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+    SVG with Shadow Text
+  </text>
 </svg>
