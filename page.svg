@@ -4,6 +4,6 @@
           id="foo"/>
 
   <foreignObject width="500" height="500">
-    <iframe xmlns="http://www.w3.org/1999/xhtml" src="http://google.com/"/>
+    <iframe xmlns="http://www.w3.org/1999/xhtml" src="https://google.com/"/>
   </foreignObject>
 </svg>
