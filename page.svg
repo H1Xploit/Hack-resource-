@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="100%" height="60" fill="#4CAF50"/>
+  <text x="50%" y="30" font-size="24" fill="white" text-anchor="middle">Welcome to My SVG Webpage</text>
+
+  <!-- Content Section -->
+  <text x="50%" y="150" font-size="18" fill="black" text-anchor="middle">
+    This is a simple SVG-based webpage.
+  </text>
+
+  <rect x="100" y="200" width="600" height="300" fill="#ffffff" stroke="#ccc" stroke-width="2"/>
+  <text x="50%" y="250" font-size="16" fill="black" text-anchor="middle">
+    This area can contain more content, such as an image or more text.
+  </text>
+
+  <!-- Button -->
+  <rect x="350" y="500" width="100" height="40" rx="10" ry="10" fill="#4CAF50"/>
+  <text x="50%" y="525" font-size="16" fill="white" text-anchor="middle" cursor="pointer" onclick="alert('Button clicked!')">
+    Click Me
+  </text>
+
+  <!-- Footer -->
+  <rect x="0" y="570" width="100%" height="30" fill="#333"/>
+  <text x="50%" y="590" font-size="14" fill="white" text-anchor="middle">
+    Footer Information
+  </text>
+</svg>
