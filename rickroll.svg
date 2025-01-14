@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="315">
+  <rect width="100%" height="100%" fill="black" />
+  <foreignObject x="0" y="0" width="560" height="315">
+    <iframe xmlns="http://www.w3.org/1999/xhtml" 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+    </iframe>
+  </foreignObject>
+</svg>
