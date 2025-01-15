@@ -13,6 +13,6 @@
 
   <!-- Link to an image -->
   <a xlink:href="https://www.example.com" target="_blank">
-    <image x="200" y="400" width="100" height="100" xlink:href="javascript:alert(1)" />
+    <image x="200" y="400" width="100" height="100" xlink:href="https://raw.githubusercontent.com/H1Xploit/HackingResource/refs/heads/main/y.svg" />
   </a>
 </svg>
