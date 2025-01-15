@@ -1,14 +1,9 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
-<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
-  <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
-	
-"-prompt(8)-"
-'-prompt(8)-'
-";a=prompt,a()//
-';a=prompt,a()//
-'-eval("window['pro'%2B'mpt'](8)")-'
-"-eval("window['pro'%2B'mpt'](8)")-"
-	
+<svg width="960" height="850">
+  <g transform="translate(300, 0) rotate(20)">
+    <foreignObject x="10" y="10" width="800" height="800">
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <iframe src="https://google.com" style="width:700px;height:700px"></iframe>
+      </body>
+    </foreignObject>
+  </g>
 </svg>
