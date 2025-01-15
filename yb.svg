@@ -1,9 +1,26 @@
-<svg width="960" height="850">
-  <g transform="translate(300, 0) rotate(20)">
-    <foreignObject x="10" y="10" width="800" height="800">
-      <body xmlns="http://www.w3.org/1999/xhtml">
-        <iframe src="https://dashboard.privy.io/images/blobby-error.svg" style="width:700px;height:700px"></iframe>
-      </body>
-    </foreignObject>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="lightblue" />
+
+  <!-- Circle with gradient -->
+  <defs>
+    <radialGradient id="circleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff9a9e" />
+      <stop offset="100%" stop-color="#fad0c4" />
+    </radialGradient>
+  </defs>
+  <circle cx="250" cy="150" r="100" fill="url(#circleGradient)" />
+
+  <!-- Rectangle -->
+  <rect x="100" y="300" width="300" height="100" rx="15" fill="#00c3ff" stroke="#0094cc" stroke-width="5" />
+
+  <!-- Text -->
+  <text x="250" y="350" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">
+    Hello SVG World!
+  </text>
+
+  <!-- Link to an image -->
+  <a xlink:href="https://www.example.com" target="_blank">
+    <image x="200" y="400" width="100" height="100" xlink:href="https://via.placeholder.com/100" />
+  </a>
 </svg>
